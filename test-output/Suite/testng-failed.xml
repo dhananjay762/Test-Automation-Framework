@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.store.test.DoShopping_E2E">
+        <methods>
+          <include name="chooseProduct"/>
+          <include name="start"/>
+          <include name="checkout"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="placeOrder"/>
+        </methods>
+      </class> <!-- com.store.test.DoShopping_E2E -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-08T21:21:07Z" name="Suite" finished-at="2021-08-08T21:22:11Z" duration-ms="63900">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T21:21:07Z" name="Test" finished-at="2021-08-08T21:22:11Z" duration-ms="63900">
+      <class name="com.store.test.ShopAndPlaceOrder_E2E">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:com.store.test.ShopAndPlaceOrder_E2E@258d79be]" started-at="2021-08-08T21:21:07Z" name="start" finished-at="2021-08-08T21:21:20Z" duration-ms="12267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="login()[pri:0, instance:com.store.test.ShopAndPlaceOrder_E2E@258d79be]" started-at="2021-08-08T21:21:20Z" name="login" finished-at="2021-08-08T21:21:29Z" duration-ms="9357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="chooseProduct()[pri:0, instance:com.store.test.ShopAndPlaceOrder_E2E@258d79be]" started-at="2021-08-08T21:21:29Z" name="chooseProduct" finished-at="2021-08-08T21:21:46Z" depends-on-methods="com.store.test.ShopAndPlaceOrder_E2E.login" duration-ms="17209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseProduct -->
+        <test-method signature="placeOrder()[pri:0, instance:com.store.test.ShopAndPlaceOrder_E2E@258d79be]" started-at="2021-08-08T21:21:46Z" name="placeOrder" finished-at="2021-08-08T21:21:51Z" depends-on-methods="com.store.test.ShopAndPlaceOrder_E2E.chooseProduct" duration-ms="5201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method signature="checkout()[pri:0, instance:com.store.test.ShopAndPlaceOrder_E2E@258d79be]" started-at="2021-08-08T21:21:51Z" name="checkout" finished-at="2021-08-08T21:22:05Z" depends-on-methods="com.store.test.ShopAndPlaceOrder_E2E.placeOrder" duration-ms="14109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method signature="logout()[pri:0, instance:com.store.test.ShopAndPlaceOrder_E2E@258d79be]" started-at="2021-08-08T21:22:05Z" name="logout" finished-at="2021-08-08T21:22:10Z" depends-on-methods="com.store.test.ShopAndPlaceOrder_E2E.checkout" duration-ms="4917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.store.test.ShopAndPlaceOrder_E2E@258d79be]" started-at="2021-08-08T21:22:10Z" name="close" finished-at="2021-08-08T21:22:11Z" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.store.test.ShopAndPlaceOrder_E2E -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
